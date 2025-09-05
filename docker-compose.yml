@@ -1,0 +1,10 @@
+version: '3.10-slim'
+
+services:
+  mi-app-tkinter:
+    image: sha256:1c4c37664188c1fa607abbc85076bd7d744cd01f4970f159b51eb21638bbe769
+    environment:
+      - DISPLAY=$DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    command: python3 /app/tarea/interfaz.py
