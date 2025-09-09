@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 import sqlite3
 from tkinter import messagebox
-from tkinter import PhotoImage
+
 
 #creando la root
 root = Tk()
