@@ -10,10 +10,10 @@ RUN apt-get update && \
 
 WORKDIR /app
 
-COPY tarea/ /app/tarea/
+COPY . /app
 
 # Establece la variable DISPLAY para X11 forwarding
 ENV DISPLAY=:0
 
-CMD ["python", "/app/tarea/interfaz.py"]
+CMD ["python", "/app/interfaz.py"]
 
