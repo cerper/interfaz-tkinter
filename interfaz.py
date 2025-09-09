@@ -6,7 +6,7 @@ from tkinter import PhotoImage
 
 #creando la root
 root = Tk()
-root.title("Interfaz de Tarea")
+root.title("Registro Civil - David Lovera")
 root.geometry("900x680")
 root.configure(bg="#e3eaf2")
 
@@ -110,7 +110,7 @@ style.map("CustomCombobox.TCombobox",
 
 
 #titulo del frame
-Label(root, text="Gestión de Usuarios", font=("Arial", 22, "bold"), bg="#e3eaf2", fg="#1e3799").pack(pady=(15, 0))
+Label(root, text="Registro Civil", font=("Arial", 22, "bold"), bg="#e3eaf2", fg="#1e3799").pack(pady=(15, 0))
 Label(root, text="Agrega, busca, actualiza o elimina usuarios fácilmente.", font=("Arial", 13), bg="#e3eaf2", fg="#222f3e").pack()
 
 frame = Frame(root, bg="#f9fafc", bd=3, relief="ridge")
